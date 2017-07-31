@@ -101,7 +101,8 @@ public class JavaLambdas {
     List<String> list = new ArrayList<>(Arrays.asList(
         "alpha", "bravo", "charlie", "delta", "echo", "foxtrot"));
 
-    /* YOUR CODE HERE */
+    list.replaceAll(String::toUpperCase);
+    list.forEach(System.out::println);
   }
 
   /**
@@ -117,6 +118,11 @@ public class JavaLambdas {
     map.put("a", 1);
 
     /* YOUR CODE HERE */
+    StringBuilder resString=new StringBuilder();
+    
+    map.forEach((key,value)->{resString.append(key+value);});
+    
+    System.out.println(resString);
   }
 
   /**
@@ -128,6 +134,8 @@ public class JavaLambdas {
     List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
     /* YOUR CODE HERE */
+    
+    new Thread( ()->list.forEach(System.out::println)).start();
   }
 
   /**
