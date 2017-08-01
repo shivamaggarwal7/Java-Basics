@@ -3,7 +3,7 @@
  *
  * JDK 8 MOOC Lesson 1 homework
  */
-package com.java8.lambdas;
+package com.java8.features;
 
 import java.util.ArrayList;
 import java.util.Arrays;
