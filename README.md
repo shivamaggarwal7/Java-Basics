@@ -14,5 +14,6 @@ Java 8(Lambdas and Streams) and Collections
      2)Implement Comparable<T> interface,providing implementation for compareTo(Object  o) method
      
  •	For further info,please refer to document resource
-    :https://github.com/shivamaggarwal7/Java-Basics/tree/master/resources
+    
+    https://github.com/shivamaggarwal7/Java-Basics/tree/master/resources
 
