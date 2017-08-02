@@ -3,7 +3,7 @@
  * hence the output is deterministic
  * */
 
-package com.java.collections;
+package com.java.collections.map;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

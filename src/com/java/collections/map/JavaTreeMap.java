@@ -1,18 +1,18 @@
 /*
- * HashMap does not maintain any ordering of elements,
- * hence the output is non-deterministic
+ * TreeMap sorts the elements of the Collection,by their keys
+ * hence the output is deterministic
  * */
 
-package com.java.collections;
+package com.java.collections.map;
 
-import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
-public class JavaHashMap {
+public class JavaTreeMap {
 
 	public static void main(String[] args) {
 
-		Map<Integer,String> map = new HashMap<Integer,String>();
+		Map<Integer,String> map = new TreeMap<Integer,String>();
         
 		map.put(4, "Rahul");
         map.put(56, "Harshi");

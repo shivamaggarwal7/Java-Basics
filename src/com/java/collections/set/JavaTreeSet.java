@@ -3,7 +3,7 @@
  * hence the output is deterministic
  * */
 
-package com.java.collections;
+package com.java.collections.set;
 
 import java.util.Arrays;
 import java.util.Set;

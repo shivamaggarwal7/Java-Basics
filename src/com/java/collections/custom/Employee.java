@@ -1,8 +1,6 @@
 package com.java.collections.custom;
 
-import java.util.Comparator;
-
-public class Employee implements Comparator<Employee> {
+public class Employee implements Comparable<Employee> {
 
 	private long empId;
 	private String empName;
@@ -66,10 +64,23 @@ public class Employee implements Comparator<Employee> {
 		return true;
 	}
 
-	@Override
-	public int compare(Employee o1, Employee o2) {
-		return (int)(o1.getEmpId()-o2.getEmpId());
+	public Employee(long empId, String empName) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.grade = "Assoc";
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + "]";
+	}
+
+	@Override
+	public int compareTo(Employee o) {
+
+		return (int) (this.getEmpId() - o.getEmpId());
+
+	}
+
 }
