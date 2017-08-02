@@ -1,5 +1,5 @@
 # Java-Basics
-Java 8 Basics and Collections
+Java 8(Lambdas and Streams) and Collections
 
 •	A TreeSet uses compareTo(Object o) method implementation from Comparable<T> interface to check for both duplicate elements as well as for sorting.
   
