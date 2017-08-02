@@ -12,4 +12,6 @@ Java 8 Basics and Collections
      1)Override hashCode() and equals(Object o) methods
      
      2)Implement Comparable<T> interface,providing implementation for compareTo(Object  o) method
+     
+ •	For further info,please refer to document resource :https://github.com/shivamaggarwal7/Java-Basics/tree/master/resources
 
