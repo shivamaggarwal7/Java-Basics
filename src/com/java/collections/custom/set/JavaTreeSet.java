@@ -20,7 +20,7 @@ public class JavaTreeSet {
 		set.add(new Employee(3423, "Rahul"));
 		set.add(new Employee(23, "Harshi"));
 		set.add(new Employee(56712, "Mom"));
-		set.add(new Employee(56712, "Mom"));
+		set.add(new Employee(56712, "Shruti"));
 		
 		set.forEach(System.out::println);
 	}
